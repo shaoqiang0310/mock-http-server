@@ -58,8 +58,8 @@ jobs:
         # You can use this option to configure a CA cert if using a self-hosted runner and self-signed
         # certificates on your Hub server. This option should point to a file on the local filesystem
         # with the CA chain cert
-        env:
-          DETECT_EXCLUDED_DETECTOR_TYPES: MAVEN
+        #env:
+        #  DETECT_EXCLUDED_DETECTOR_TYPES: MAVEN
         #  NODE_EXTRA_CA_CERTS: ${{ secrets.LOCAL_CA_CERT_PATH }}
         with:
           scan-mode: INTELLIGENT
