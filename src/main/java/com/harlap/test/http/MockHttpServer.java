@@ -28,6 +28,7 @@ import org.simpleframework.http.core.Container;
 import org.simpleframework.transport.connect.Connection;
 import org.simpleframework.transport.connect.SocketConnection;
 
+
 public class MockHttpServer {
 	public enum Method {
 		GET, POST, PUT, DELETE;
