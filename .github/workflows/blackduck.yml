@@ -59,7 +59,7 @@ jobs:
         # certificates on your Hub server. This option should point to a file on the local filesystem
         # with the CA chain cert
         env:
-	   detect.project.version.name DETECT_PROJECT_VERSION_NAME: master
+	   DETECT_PROJECT_VERSION_NAME: master
         #  NODE_EXTRA_CA_CERTS: ${{ secrets.LOCAL_CA_CERT_PATH }}
         with:
           scan-mode: INTELLIGENT
